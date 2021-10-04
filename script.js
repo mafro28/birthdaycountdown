@@ -21,7 +21,7 @@ let x = setInterval(function () {
 
   // If the count down is over, write some text 
   if (distance < 0) {
-    clearInterval(x);
+    clearInterval(x); 
     document.getElementById("demo").innerHTML = "Countown to 2023 let's gooooooo!!!!";
   }
 }, 1000);
